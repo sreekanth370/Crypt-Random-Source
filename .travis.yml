@@ -4,6 +4,9 @@ addons:
       - aspell
       - aspell-en
 language: perl
+arch:
+  - amd64
+  - ppc64le
 perl:
   - blead       # builds perl from git
   - dev         # latest point release
